@@ -1,0 +1,16 @@
+create database cars;
+use cars;
+create table lll (
+ stdId integer primary key,
+ name text not null,
+ number text not null,
+ regions text not null,
+);
+
+insert into lll values (1, 'Mers', '111', '01');
+insert into lll values (2, 'BMW', '5', '04');
+insert into lll values (3, 'Lexus', '570', '02');
+
+drop table lll;
+
+select * from lll;
